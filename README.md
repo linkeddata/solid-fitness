@@ -9,3 +9,8 @@ Goal:
 - view of all of a group's activities
 - display aggregate history, training records, etc
 
+Github pages page:
+
+https://linkeddata.github.io/solid-fitness/
+
+Not sure whether this is heading for an web or a command line app or both.
