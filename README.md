@@ -19,9 +19,16 @@ The strava API token source
 
 https://www.strava.com/settings/api
 
+The Strava API documentation
+
+    http://strava.github.io/api/
+
 Related projects
 
 https://www.npmjs.com/package/hubot-strava
 
-https://www.npmjs.com/package/strava-v3
+
+See the instructions for getting access tokens in
+
+    https://www.npmjs.com/package/strava-v3
 
