@@ -1,0 +1,59 @@
+{
+  "name": "solid-fitness",
+  "version": "0.0.1",
+  "description": "Library for fitness data in solid store",
+  "main": "./index.js",
+  "files": [],
+  "scripts": {
+    "build-lib": "babel src -d lib",
+    "build": "npm run build-lib",
+    "postversion": "git push origin master --follow-tags",
+    "prepublish": "npm run build",
+    "standard": "standard",
+    "test": "npm run standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linkeddata/solid-fitness"
+  },
+  "keywords": [
+    "solid",
+    "decentralized",
+    "widgets",
+    "ui",
+    "web",
+    "rdf",
+    "ldp",
+    "linked",
+    "data",
+    "fitness",
+    "strava"
+  ],
+  "author": "Tim Berners-Lee <timbl@mit.edu>",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linkeddata/solid-ui/issues"
+  },
+  "homepage": "https://github.com/linkeddata/solid-fitness",
+  "dependencies": {
+    "rdflib": "^0.16.3",
+    "solid-auth-client": "^1.0.0",
+    "solid-auth-tls": "^0.1.2",
+    "strava-v3": "^1.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "standard": "^10.0.2"
+  },
+  "standard": {
+    "globals": [
+      "$rdf",
+      "tabulator",
+      "QUnit",
+      "$SolidTestEnvironment",
+      "AudioContext"
+    ]
+  }
+}
