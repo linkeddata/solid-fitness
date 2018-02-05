@@ -14,3 +14,14 @@ Github pages page:
 https://linkeddata.github.io/solid-fitness/
 
 Not sure whether this is heading for an web or a command line app or both.
+
+The strava API token source
+
+https://www.strava.com/settings/api
+
+Related projects
+
+https://www.npmjs.com/package/hubot-strava
+
+https://www.npmjs.com/package/strava-v3
+

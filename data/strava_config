@@ -1,6 +1,6 @@
 
 {
-    "access_token"    : "45584a661000f16dac52ae49736e5652635a5357"
+    "access_token"    : ""
     , "client_id"     : "19042"
     , "client_secret" : "46ff8b34ba28d2e5be0cd134fab6aac17ce8835b"
     , "redirect_uri"  : "http://solid-fitness.githib.io/redirect.html"
