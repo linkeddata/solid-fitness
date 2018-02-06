@@ -5,12 +5,15 @@
   "main": "./index.js",
   "files": [],
   "scripts": {
-    "build-lib": "babel src -d lib",
-    "build": "npm run build-lib",
+    "build": "echo no build",
     "postversion": "git push origin master --follow-tags",
     "prepublish": "npm run build",
     "standard": "standard",
     "test": "npm run standard"
+  },
+  "nonScripts": {
+    "build-lib": "babel src -d lib",
+    "build": "npm run build-lib"
   },
   "repository": {
     "type": "git",
